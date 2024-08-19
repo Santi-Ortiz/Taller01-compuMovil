@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Taller01</string>
+    <string name="explorar">Explorar Destinos </string>
+    <string name="fav">Favoritos </string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string-array name="categorias">
+        <item>Todos</item>
+        <item>Playas</item>
+        <item>Montañas</item>
+        <item>Ciudades Históricas</item>
+        <item>Maravillas del Mundo</item>
+        <item>Selvas</item>
+    </string-array>
 </resources>
