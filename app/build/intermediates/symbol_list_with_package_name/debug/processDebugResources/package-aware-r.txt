@@ -78,6 +78,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array categorias
+array lugares
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3195,6 +3196,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAgregarFavoritos
 id btnExplorar
 id btnFavoritos
 id btnRecomendaciones
@@ -3340,9 +3342,9 @@ id line1
 id line3
 id linear
 id listMode
+id listViewLugares
 id list_item
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3551,7 +3553,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
+id textViewNombre
+id textViewPais
+id textViewPlan
+id textViewPrecio
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3580,6 +3585,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtNombre
+id txtPais
 id unchecked
 id uniform
 id unlabeled
@@ -3717,6 +3724,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_detalle_destino
 layout activity_main
 layout activity_pantalla2
 layout custom_dialog
@@ -3737,6 +3745,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_destino
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

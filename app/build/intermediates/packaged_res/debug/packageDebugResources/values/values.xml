@@ -8,6 +8,10 @@
         <item>Maravillas del Mundo</item>
         <item>Selvas</item>
     </string-array>
+    <string-array name="lugares">
+        <item>Baia do Sancho</item>
+        <item>Eagle Beach</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Taller01</string>

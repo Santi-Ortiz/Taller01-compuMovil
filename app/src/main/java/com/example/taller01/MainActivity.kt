@@ -3,6 +3,7 @@ package com.example.taller01
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Spinner
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -14,12 +15,14 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        var botonExplorar = findViewById<Button>(R.id.btnExplorar)
-        var botonFav = findViewById<Button>(R.id.btnFavoritos)
-        var botonRecomendaciones = findViewById<Button>(R.id.btnRecomendaciones)
+        val botonExplorar = findViewById<Button>(R.id.btnExplorar)
+        val spinnerCategoria = findViewById<Spinner>(R.id.spinnerCategoria)
 
         botonExplorar.setOnClickListener {
-            val intentPantalla2 = Intent(this, Pantalla2::class.java)
+            val selectedCategory = spinnerCategoria.selectedItem.toString()
+            val intentPantalla2 = Intent(this, Pantalla2::class.java).apply {
+                putExtra("categoria", selectedCategory)
+            }
             startActivity(intentPantalla2)
         }
     }
