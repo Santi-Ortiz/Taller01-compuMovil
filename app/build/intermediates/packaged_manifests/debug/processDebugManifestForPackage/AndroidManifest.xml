@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taller01" >
         <activity
+            android:name="com.example.taller01.Pantalla2"
+            android:exported="false" />
+        <activity
             android:name="com.example.taller01.MainActivity"
             android:exported="true" >
             <intent-filter>

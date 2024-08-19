@@ -1,14 +1,24 @@
 R_DEF: Internal format may change without notice
 local
+array categorias
 color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btnExplorar
+id btnFavoritos
+id btnRecomendaciones
 id main
+id spinnerCategoria
+id textView
 layout activity_main
+layout activity_pantalla2
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string explorar
+string fav
+string recomendaciones
 style Base.Theme.Taller01
 style Theme.Taller01
 xml backup_rules

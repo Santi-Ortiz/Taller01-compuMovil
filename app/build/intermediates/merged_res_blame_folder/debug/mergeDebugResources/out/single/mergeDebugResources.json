@@ -60,6 +60,10 @@
         "source": "com.example.taller01.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.taller01.app-debug-31:/layout_activity_pantalla2.xml.flat",
+        "source": "com.example.taller01.app-main-33:/layout/activity_pantalla2.xml"
+    },
+    {
         "merged": "com.example.taller01.app-debug-31:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.taller01.app-main-33:/drawable/ic_launcher_background.xml"
     },
