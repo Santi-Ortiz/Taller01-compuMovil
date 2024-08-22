@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taller01" >
         <activity
+            android:name="com.example.taller01.Descripcion"
+            android:exported="false" />
+        <activity
             android:name="com.example.taller01.DetalleDestinoActivity"
             android:exported="false" />
         <activity

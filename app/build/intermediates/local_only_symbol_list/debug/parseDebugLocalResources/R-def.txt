@@ -1,7 +1,6 @@
 R_DEF: Internal format may change without notice
 local
 array categorias
-array lugares
 color black
 color white
 drawable ic_launcher_background
@@ -10,14 +9,19 @@ id btnAgregarFavoritos
 id btnExplorar
 id btnFavoritos
 id btnRecomendaciones
+id descripcion
 id listViewLugares
 id spinnerCategoria
+id texViewNombre
+id texViewPais
+id textViewCategoria
 id textViewNombre
 id textViewPais
 id textViewPlan
 id textViewPrecio
 id txtNombre
 id txtPais
+layout activity_descripcion
 layout activity_detalle_destino
 layout activity_main
 layout activity_pantalla2
@@ -25,6 +29,7 @@ layout item_destino
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string btnFav
 string explorar
 string fav
 string recomendaciones

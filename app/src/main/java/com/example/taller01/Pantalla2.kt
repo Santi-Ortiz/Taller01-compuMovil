@@ -1,13 +1,16 @@
 package com.example.taller01
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.BlockedNumberContract.BlockedNumbers
+import android.widget.AdapterView.OnItemClickListener
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import org.json.JSONObject
+import java.io.IOException
 import java.io.InputStream
+
 
 class Pantalla2 : AppCompatActivity() {
 
@@ -33,30 +36,43 @@ class Pantalla2 : AppCompatActivity() {
             if (selectedCategory == "Todos" || destino.getString("categoria") == selectedCategory) {
                 destinos.add(
                     Destino(
-                        destino.getInt("id"),
-                        destino.getString("nombre"),
-                        destino.getString("pais"),
-                        destino.getString("categoria"),
-                        destino.getString("plan"),
-                        destino.getInt("precio")
+                        destino.getInt("id"),destino.getString("nombre"),destino.getString("pais"),destino.getString("categoria"), destino.getString("plan"),                        destino.getInt("precio")
                     )
                 )
             }
         }
 
-        // Configurar el adaptador para el ListView
+        // Se le asigna un adaptador a ListView
         val adapter = DestinosAdapter(this, destinos)
         listViewLugares.adapter = adapter
+
+        listViewLugares.onItemClickListener = OnItemClickListener { parent, view, position, id ->
+            val posicion: Any = listViewLugares.getItemAtPosition(position)
+            posicion as Destino
+            val bundle = Bundle()
+            bundle.putString("nombre", posicion.nombre)
+            bundle.putString("pais", posicion.pais)
+            bundle.putString("categoria", posicion.categoria)
+            bundle.putString("plan", posicion.plan)
+            bundle.putInt("precio", posicion.precio)
+            val intent = Intent(this, Descripcion::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
+        }
     }
 
-    private fun loadJSONFromAsset(): String {
-        val json: String?
+    private fun loadJSONFromAsset(): String? {
+        var json: String? = null
         try {
-            val inputStream: InputStream = assets.open("destinos.json")
-            json = inputStream.bufferedReader().use { it.readText() }
-        } catch (ex: Exception) {
+            val isStream: InputStream = assets.open("destinos.json")
+            val size:Int = isStream.available()
+            val buffer = ByteArray(size)
+            isStream.read(buffer)
+            isStream.close()
+            json = String(buffer, Charsets.UTF_8)
+        } catch (ex: IOException) {
             ex.printStackTrace()
-            return ""
+            return null
         }
         return json
     }

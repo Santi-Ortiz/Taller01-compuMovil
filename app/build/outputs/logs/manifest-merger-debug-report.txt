@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\santi\.gradle\caches\transforms-4\3469bb7dc783f06b64de99619a8d4ef7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\santi\.gradle\caches\transforms-4\b04347a15d561185920edb1bfb86e899\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\santi\.gradle\caches\transforms-4\10b4df59b9c8431f32ab69326d83d405\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\santi\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:5:5-36:19
-INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:5:5-39:19
+INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:5:5-39:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\santi\.gradle\caches\transforms-4\3469bb7dc783f06b64de99619a8d4ef7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\santi\.gradle\caches\transforms-4\3469bb7dc783f06b64de99619a8d4ef7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\santi\.gradle\caches\transforms-4\b04347a15d561185920edb1bfb86e899\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -96,40 +96,46 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sa
 		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.taller01.DetalleDestinoActivity
+activity#com.example.taller01.Descripcion
 ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:16:13-51
-activity#com.example.taller01.ExplorarDestinosActivity
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:21:9-23:40
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:16:13-40
+activity#com.example.taller01.DetalleDestinoActivity
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:22:13-53
-activity#com.example.taller01.Pantalla2
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:19:13-51
+activity#com.example.taller01.ExplorarDestinosActivity
 ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:25:13-38
-activity#com.example.taller01.MainActivity
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:27:9-35:20
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:25:13-53
+activity#com.example.taller01.Pantalla2
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:28:13-38
+activity#com.example.taller01.MainActivity
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:31:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml:36:27-74
 uses-sdk
 INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\santi\OneDrive\Documentos\PROYECTOS GITHUB\Taller01-compuMovil\app\src\main\AndroidManifest.xml

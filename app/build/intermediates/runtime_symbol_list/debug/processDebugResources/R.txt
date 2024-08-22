@@ -77,7 +77,6 @@ int animator mtrl_fab_show_motion_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020020
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020021
 int array categorias 0x7f030000
-int array lugares 0x7f030001
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr actionBarDivider 0x7f040002
@@ -3245,6 +3244,7 @@ int id decor_content_parent 0x7f090090
 int id default_activity_button 0x7f090091
 int id deltaRelative 0x7f090092
 int id dependency_ordering 0x7f090093
+int id descripcion 0x7f090200
 int id design_bottom_sheet 0x7f090094
 int id design_menu_item_action_area 0x7f090095
 int id design_menu_item_action_area_stub 0x7f090096
@@ -3545,6 +3545,8 @@ int id tag_transition_group 0x7f0901bc
 int id tag_unhandled_key_event_manager 0x7f0901bd
 int id tag_unhandled_key_listeners 0x7f0901be
 int id tag_window_insets_animation_callback 0x7f0901bf
+int id texViewNombre 0x7f090201
+int id texViewPais 0x7f090202
 int id text 0x7f0901c0
 int id text2 0x7f0901c1
 int id textEnd 0x7f0901c2
@@ -3552,6 +3554,7 @@ int id textSpacerNoButtons 0x7f0901c3
 int id textSpacerNoTitle 0x7f0901c4
 int id textStart 0x7f0901c5
 int id textTop 0x7f0901c6
+int id textViewCategoria 0x7f090203
 int id textViewNombre 0x7f0901c7
 int id textViewPais 0x7f0901c8
 int id textViewPlan 0x7f0901c9
@@ -3723,6 +3726,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_descripcion 0x7f0c006f
 int layout activity_detalle_destino 0x7f0c001c
 int layout activity_main 0x7f0c001d
 int layout activity_pantalla2 0x7f0c001e
@@ -3845,6 +3849,7 @@ int string bottomsheet_action_expand 0x7f100020
 int string bottomsheet_action_expand_halfway 0x7f100021
 int string bottomsheet_drag_handle_clicked 0x7f100022
 int string bottomsheet_drag_handle_content_description 0x7f100023
+int string btnFav 0x7f1000aa
 int string call_notification_answer_action 0x7f100024
 int string call_notification_answer_video_action 0x7f100025
 int string call_notification_decline_action 0x7f100026
