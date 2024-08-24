@@ -11,8 +11,5 @@
         <item>Maravillas del Mundo</item>
         <item>Selvas</item>
     </string-array>
-    <string-array name="lugares">
-        <item>Baia do Sancho</item>
-        <item>Eagle Beach</item>
-    </string-array>
+    <string name="btnFav">Añadir a favoritos</string>
 </resources>

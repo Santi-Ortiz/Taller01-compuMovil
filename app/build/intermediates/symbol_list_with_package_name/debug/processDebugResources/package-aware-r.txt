@@ -78,7 +78,6 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array categorias
-array lugares
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3246,6 +3245,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcion
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3546,6 +3546,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id texViewNombre
+id texViewPais
 id text
 id text2
 id textEnd
@@ -3553,6 +3555,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewCategoria
 id textViewNombre
 id textViewPais
 id textViewPlan
@@ -3724,6 +3727,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_descripcion
 layout activity_detalle_destino
 layout activity_main
 layout activity_pantalla2
@@ -3846,6 +3850,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string btnFav
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
