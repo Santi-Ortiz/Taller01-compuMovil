@@ -46,4 +46,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.gson)
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.2")
 }

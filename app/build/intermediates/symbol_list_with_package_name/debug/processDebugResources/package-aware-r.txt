@@ -3195,7 +3195,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnAgregarFavoritos
 id btnExplorar
 id btnFavoritos
 id btnRecomendaciones
@@ -3342,6 +3341,7 @@ id line1
 id line3
 id linear
 id listMode
+id listViewFavoritos
 id listViewLugares
 id list_item
 id m3_side_sheet
@@ -3556,10 +3556,9 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewCategoria
-id textViewNombre
-id textViewPais
 id textViewPlan
 id textViewPrecio
+id textViewRecomendacion
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3588,8 +3587,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtNombre
-id txtPais
 id unchecked
 id uniform
 id unlabeled
@@ -3728,9 +3725,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_descripcion
-layout activity_detalle_destino
+layout activity_descripcion_favoritos
+layout activity_destinos
+layout activity_favoritos
 layout activity_main
-layout activity_pantalla2
+layout activity_recomendaciones
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3749,7 +3748,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
-layout item_destino
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

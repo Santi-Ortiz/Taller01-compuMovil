@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Taller01" >
         <activity
+            android:name="com.example.taller01.RecomendacionesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.taller01.DescripcionFavoritos"
+            android:exported="false" />
+        <activity
+            android:name="com.example.taller01.FavoritosActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.taller01.Descripcion"
             android:exported="false" />
         <activity
@@ -40,7 +49,7 @@
             android:name="com.example.taller01.ExplorarDestinosActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.taller01.Pantalla2"
+            android:name="com.example.taller01.Destinos"
             android:exported="false" />
         <activity
             android:name="com.example.taller01.MainActivity"
