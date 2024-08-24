@@ -15,6 +15,7 @@ id spinnerCategoria
 id texViewNombre
 id texViewPais
 id textViewCategoria
+id textViewClima
 id textViewPlan
 id textViewPrecio
 id textViewRecomendacion

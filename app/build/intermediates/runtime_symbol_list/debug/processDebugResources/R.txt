@@ -3555,6 +3555,7 @@ int id textSpacerNoTitle 0x7f0901c7
 int id textStart 0x7f0901c8
 int id textTop 0x7f0901c9
 int id textViewCategoria 0x7f0901ca
+int id textViewClima 0x7f090206
 int id textViewPlan 0x7f0901cd
 int id textViewPrecio 0x7f0901ce
 int id textViewRecomendacion 0x7f090205

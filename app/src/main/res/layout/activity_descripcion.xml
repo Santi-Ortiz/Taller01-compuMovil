@@ -61,7 +61,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@id/btnFavoritos"
+        android:id="@+id/btnFavoritos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -70,6 +70,5 @@
         android:text="@string/btnFav">
 
     </Button>
-
 
 </RelativeLayout>

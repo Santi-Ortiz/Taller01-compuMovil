@@ -1,4 +1,4 @@
-#Sat Aug 24 00:18:12 COT 2024
+#Sat Aug 24 00:29:27 COT 2024
 base.0=/Users/monts/StudioProjects/Taller01-compuMovil/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/monts/StudioProjects/Taller01-compuMovil/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/monts/StudioProjects/Taller01-compuMovil/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex

@@ -3556,6 +3556,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewCategoria
+id textViewClima
 id textViewPlan
 id textViewPrecio
 id textViewRecomendacion
