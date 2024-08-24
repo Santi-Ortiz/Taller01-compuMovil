@@ -58,15 +58,14 @@
             android:layout_centerHorizontal="true"
             android:text="textViewPrecio" />
 
-        <!-- Nuevo TextView para el clima -->
         <TextView
             android:id="@+id/textViewClima"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/textViewPrecio"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true"
-            android:text="Clima: NA" />
+            android:text="Clima"/>
 
     </RelativeLayout>
 
